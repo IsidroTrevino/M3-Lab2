@@ -6,7 +6,7 @@ import {
     Spinner, Alert
 } from "reactstrap";
 
-const API_URL = "https://m3-lab2-api.vercel.app/api/books";
+const API_URL = "/api/books";
 
 class Library extends React.Component {
     state = {
